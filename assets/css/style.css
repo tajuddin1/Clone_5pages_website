@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"); 
 
+
+.demo_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 20px 10%;
+    background: #fff;
+    border-top: 1px solid;
+    box-shadow: -1px -2px 15px #abaaaa;
+    position: fixed;
+    bottom: 0;
+}
+
+.main {
+    margin-bottom: 150px;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -64,16 +83,16 @@ hr {
 }
 
 .hero_banner_wrapper.video {
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/videos.webp");
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Videos/Videos.jpg");
 }
 .hero_banner_wrapper.trends {
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/trends\ \ header.webp");
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Trends/trends\ \ header.jpg");
 }
 .hero_banner_wrapper.possibilities {
     background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Possibilities.webp");
 }
 .hero_banner_wrapper.lookbooks {
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/lookbooks\ \ header.webp");
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Lookbooks/lookbooks\ \ header.jpg");
 }
 .hero_banner_wrapper.produc-brands {
     background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/product\ brands\ \ header.webp");
